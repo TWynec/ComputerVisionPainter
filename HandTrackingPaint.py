@@ -43,10 +43,8 @@ while True:
         x2, y2 = lmList[12][1:]
 
         fingers = detector.fingersUp()
-        #print(fingers)
 
         # rectangle is selection mode, circle is drawing mode 
-
         # select
         if fingers[1] and fingers[2]:
             xp, yp = 0,0
