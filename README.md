@@ -4,6 +4,8 @@
 * [General Info](#general-info)
 * [Setup](#Setup)
 * [Tech](#Tech)
+* [Demo](#Demo)
+* [Inspiration](#Inspiration)
 
 ## General Info
 This project uses Computer Vision to track a users hand and it allows them to draw in real time using only their fingers. By holding up your index and middle fingers the user enters selection mode, which stops drawing and allows them to choose a new color or the eraser. By holding up your index finger the program will enter drawing mode, which will leave a trail of your selected color wherever your finger designates. There are three colors available; red, green, and blue. There is also an eraser which is seen as the color black. By default the user draws on the screen/camera, but the program also records it to a blank canvas if the user prefers. The blank canvas can be shown by removing the comment in the ComputerVisionPaint file on line 90: `#cv2.imshow("Canvas", imgCanvas)`.
@@ -20,3 +22,9 @@ Project developed with:
 * OpenCV / cv2
 * numpy
 * MediaPipe
+
+## Demo
+![Example screenshot](HandTrackingPaintScreenShot.PNG)
+
+## Inspiration
+This project is inspired by FreeCodeCamp's Advanced Computer Vision with Python course.
